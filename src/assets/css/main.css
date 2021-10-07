@@ -1,0 +1,30 @@
+:root {
+  --base-font: serif;
+}
+
+body {
+  font-family: var(--base-font);
+}
+
+._container {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+._container-fluid {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  ._container-fluid {
+  }
+}
