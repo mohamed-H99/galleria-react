@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Slider from "../../components/common/Slider";
 import "./style.css";
@@ -48,7 +49,7 @@ export default function Content() {
             </p>
           </div>
           <a
-            href="https://www.google.com"
+            href="#"
             className="_content-btn sm:mt-8 sm:block sm:w-3/4 mx-auto inline-block font-light text-sm text-gray-600 tracking-widest uppercase underline"
           >
             {"Go to source"}
